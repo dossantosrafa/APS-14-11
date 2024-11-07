@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.trabalhoapresentar.MenuController"
+      alignment="CENTER" spacing="10">
+    <Button fx:id="btnProduto" text="Consultar Estoque"/>
+    <Button fx:id="btnInventario" text="Inventário"/>
+</VBox>

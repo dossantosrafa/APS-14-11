@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.trabalhoapresentar.InventarioController"
+      alignment="CENTER" spacing="10">
+    <TextField fx:id="txtCodigoProduto" promptText="Digite o código do produto"/>
+    <ListView fx:id="listaProdutos" prefWidth="300" prefHeight="200"/>
+    <Button fx:id="btnFinalizarContagem" text="Finalizar Contagem"/>
+</VBox>
