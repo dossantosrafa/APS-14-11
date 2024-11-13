@@ -27,11 +27,11 @@ public class MenuController {
     }
 
     private void carregarProdutos() {
-        produtosDisponiveis.add(new Produto("001", "Teclado"));
-        produtosDisponiveis.add(new Produto("002", "Mouse"));
-        produtosDisponiveis.add(new Produto("003", "Monitor"));
-        produtosDisponiveis.add(new Produto("004", "Gabinete"));
-        produtosDisponiveis.add(new Produto("005", "Fonte de Alimentação"));
+        produtosDisponiveis.add(new Produto("001", "Adidas Adi2000"));
+        produtosDisponiveis.add(new Produto("002", "Nike Dunk Low"));
+        produtosDisponiveis.add(new Produto("003", "Puma Suede"));
+        produtosDisponiveis.add(new Produto("004", "Tesla Hertz"));
+        produtosDisponiveis.add(new Produto("005", "Adidas Campus"));
     }
 
     public static List<Produto> getProdutosDisponiveis() {
