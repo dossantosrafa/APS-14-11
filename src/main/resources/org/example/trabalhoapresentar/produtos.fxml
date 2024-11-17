@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.control.ListView?>
-<?import javafx.scene.layout.VBox?>
+<?xml version="1.0" encoding="UTF-8"?> <!-- Define a versão do XML e o tipo de codificação de caracteres -->
+<?import javafx.scene.control.ListView?> <!-- Importa a classe ListView do JavaFX para usar uma lista de itens na interface -->
+<?import javafx.scene.layout.VBox?> <!-- Importa a classe VBox do JavaFX para usar um layout de caixa vertical -->
 
-<VBox xmlns="http://javafx.com/javafx"
-      xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.example.trabalhoapresentar.ProdutosController"
-      alignment="CENTER" spacing="10">
+<!-- Define a estrutura da interface gráfica (UI) utilizando a linguagem FXML -->
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.trabalhoapresentar.ProdutosController" alignment="CENTER" spacing="10">
+    <!-- VBox é um layout que organiza os componentes de forma vertical -->
+
+    <!-- Lista de produtos que será exibida na tela -->
     <ListView fx:id="listaProdutos" prefWidth="300" prefHeight="200"/>
 </VBox>

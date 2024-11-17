@@ -1,14 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?> <!-- Define a versão do XML e o tipo de codificação de caracteres -->
+<?import javafx.scene.layout.VBox?> <!-- Importa a classe VBox do JavaFX para usar um layout de caixa vertical -->
+<?import javafx.scene.control.Button?> <!-- Importa a classe Button do JavaFX para usar botões na interface -->
+<?import javafx.scene.layout.Pane?> <!-- Importa a classe Pane do JavaFX, que é uma área genérica de layout -->
 
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.layout.Pane?>
-
+<!-- Define a estrutura da interface gráfica (UI) utilizando a linguagem FXML -->
 <VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="20.0" fx:controller="org.example.trabalhoapresentar.MenuController">
+    <!-- VBox é um layout que organiza os componentes de forma vertical -->
+
+    <!-- Dentro do VBox, temos um Pane, que é uma área de layout onde podemos posicionar elementos manualmente -->
     <children>
         <Pane>
             <children>
+                <!-- Botão para abrir a tela de produtos -->
                 <Button fx:id="btnProduto" layoutX="23.0" layoutY="10.0" mnemonicParsing="false" text="Produtos" onAction="#btnProdutoAction"/>
+
+                <!-- Botão para abrir a tela de inventário -->
                 <Button fx:id="btnInventario" layoutX="112.0" layoutY="10.0" mnemonicParsing="false" text="Inventário" onAction="#btnInventarioAction"/>
             </children>
         </Pane>
